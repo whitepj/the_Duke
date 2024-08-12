@@ -1,7 +1,8 @@
 test.
 
 
-| foo | bar |
-| --- | --- |
-| baz | bim |
+|     | Track | Album | Work | Playlist |
+| --- | ----- | ----- | ---- | -------- | 
+| baz | bim | bim | bim | bim | bim |
+| baz | bim | bim | bim | bim | bim |
 

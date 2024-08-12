@@ -25,7 +25,7 @@ move away from anything which requires a display, to something that is cheap and
 simple to create and use -- but powerful enough to adapt to every circumstance: the
 humble barcode.
 
-## the _Library_
+## the _Audio Library_
 
 The concept is simple: Audio is brought back to a physical object, upon which is
 affixed a barcode. The object, of course, can be anything -- but in our family we print
@@ -43,8 +43,13 @@ be as high as is practically possible).
 Whilst the end-user is free to choose any barcode symbology they feel works best for
 their own needs, we have gone for the QR-Code. The contents of the code is as follows:
 
-
-
+1) The URL.
+This is _OPTIONAL_, but including it enables the QR-Code to be read by any
+modern smartphone. Of course, you will need to ensure that the server is actually
+accessible over the network -- but *please* don't open up LMS to the public internet!
+2) The Query.
+To save space, this is *an array*, consisting of *three* fields:
+   1) Object Type.
 
 |     | Track | Album | Work | Playlist |
 | --- | ----- | ----- | ---- | -------- |

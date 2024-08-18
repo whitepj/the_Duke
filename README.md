@@ -71,3 +71,8 @@ give you a track from Abba, chosen entirely at random!
 Some examples of fully-functioning labels in our home.
 
 
+## Installing
+Within the 'Manage Plugins' menu, add the 'Additional Repository':
+https://raw.githubusercontent.com/whitepj/the_Duke/main/repo.xml
+or
+https://github.com/whitepj/the_Duke/raw/main/repo.xml

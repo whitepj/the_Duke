@@ -1,0 +1,20 @@
+<?xml version='1.0' standalone='yes'?>
+<extension>
+  <name>PLUGIN_THE_DUKE</name>
+  <creator>Phil White</creator>
+  <defaultState>enabled</defaultState>
+  <description>PLUGIN_BANDCAMP_META</description>
+  <email>old.git@manx.biz</email>
+  <homepageURL>https://github.com/whitepj/the_Duke</homepageURL>
+  <id>a242b3d2-e7ad-4b0a-8ac9-ba5a830f72a2</id>
+  <dk>perl-adrusla-saemingser-ligr</dk>
+  <module>Plugins::the_Duke::Plugin</module>
+  <icon>plugins/Bandcamp/html/images/logo.png</icon>
+  <targetApplication>
+    <id>SqueezeCenter</id>
+    <maxVersion>*</maxVersion>
+    <minVersion>7.0</minVersion>
+  </targetApplication>
+  <type>2</type>
+  <version>0.1.0</version>
+</extension>

@@ -1,0 +1,16 @@
+<extensions>
+ <details>
+  <title lang="EN">Lyrion Server Plugin</title>
+ </details>
+ <plugins>
+  <plugin name="the Duke" version="0.1" minTarget="7.0" maxTarget="*">
+   <title lang="EN">the Duke</title>
+   <desc lang="EN">Text Description</desc>
+   <category>Remote Control</category>
+   <url>https://github.com/whitepj/the_Duke/plugin.zip</url>
+   <creator>Phil White</creator>
+   <email>old.git@manx.biz</email>
+   <sha>899fa32fc7bf3e9e7f356726999bb7e935768b35</sha>
+  </plugin>
+ </plugins>
+</extensions>

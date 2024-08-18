@@ -6,6 +6,7 @@ either micro-python or (more likely at this point) arduino code.
 
 ## What's wrong with this code?
 Primarily, because I believe that the client should communicate with the LMS-server
-with a _single_ command, rather than multiple requests -- with all database
-searches happening on the server itself.
+with a **_single_** command, rather than multiple requests (preferably over UDP) --
+with all database searches happening on the server itself.
+
 I presume at this point that the only way to achieve this is to write a plugin.

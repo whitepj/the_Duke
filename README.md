@@ -48,10 +48,26 @@ This is _OPTIONAL_, but including it enables the QR-Code to be read by any
 modern smartphone. Of course, you will need to ensure that the server is actually
 accessible over the network -- but *please* don't open up LMS to the public internet!
 2) The Query.
-To save space, this is *an array*, consisting of *three* fields:
-   1) Object Type.
+To save space, this is **an array**, consisting of **three** fields:
+   1) **Object Type:** A **single digit**, which determines whether we are wanting to play
+   a single, an album, a playlist, a classical work, an episode, or to issue a
+   command to the controller or to the server.
+   2) **Search String:** A simple **array**
+   3) **Artist Criteria:** A complex **array**, consisting of either one or two arrays.
+   The first holds the artist name(s), with the second (optional) containing their
+   respective role.
 
-|     | Track | Album | Work | Playlist |
-| --- | ----- | ----- | ---- | -------- |
-| baz | bim | bim | bim | bim | bim |
-| baz | bim | bim | bim | bim | bim |
+The power of this system lies in the simplicity of the query, and of the tolerance to
+variations of file-tagging within the library. If you have inconsistent tagging, it won't
+matter if the work that you are searching for is by "Mozart, WA", "Mozart, Wolfgang",
+"WA-Mozart", or any other possible permutation thereof. Just searching for "Mozart"
+is good enough. And, if you have works by _Leopold Mozart_ in your library as well, just
+ensure that the rest of the search string is sufficient to narrow the results returned...
+
+... unless you actually _want_ ambiguity. Yep, we can manage that too. `[1, ["Abba"]]` will
+give you a track from Abba, chosen entirely at random!
+
+## the _Result_
+Some examples of fully-functioning labels in our home.
+
+

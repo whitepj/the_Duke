@@ -9,4 +9,4 @@ Primarily, because I believe that the client should communicate with the LMS-ser
 with a **_single_** command, rather than multiple requests (preferably over UDP) --
 with all database searches happening on the server itself.
 
-I presume at this point that the only way to achieve this is to write a plugin.
+I presume at this point that the only way to achieve this is to write a plugin..
